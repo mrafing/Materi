@@ -1,0 +1,37 @@
+Prinsip-prinsip Responsive Disign
+1. Adaptive vs Responsive :
+  a. Adiptive : mengadaptasi lebar layar
+  b. Responsive : merespon terhadap lebar layar
+2. viewport & Meta tag :
+  a. viewport : area pada halaman web yang terlihat oleh user
+  b. meta tag : menyesuaikan ukuran tampilan 
+3. breakpoint : adalah titik-titik ukuran lebar layar diguakan sbg patokan ketika mengubah disain kita
+  contoh :
+  *extra Small Device / Potrait Phone <576px
+  *Small Device / Landscape Phone >=576px
+  *Medium Device / Tablets >=768px
+  *large Device / Laptop, Desktop >=992px
+  *extra Large Device / Large Desktop, wide screen >=1200px
+  XX-large Device >=1400px
+4. Media Query : dasar membuat responsive Web disign
+   contoh: diterapkan di dalam syntax css
+   *@media (min-width: 576px) {CSS}
+   *@media (min-width: 768px) {.....}
+   *@media (min-width: 992px) {.....}
+   *@media (min-width: 1200px) {.....}
+   *@media (min-width: 1400px) {.....}
+5. Fluid layout : membuat layout fluid satuan yang relative
+6. Relative Units :
+    * %
+    * rem & em
+    * vw(viewport width) & vh (viewport height )
+    * vmin *vmax
+7. Responsive Media : 
+  a. image
+  b. video
+8. Flexbox : merupakan display untuk mengatur beberapa element yang harus di dalam satu baris atau satu kolom yang sama
+9. Grid : merupakan display bisa mengatur banyak element sekaligus tidak peduli di dalam baris atau kolom yang berbeda jauh lebih
+          fleksibel di bandingkan menggunakan flexbox
+10. Mobile fisrt disign : sebaiknya mendasain dari tampilan mobile terlebih dahulu
+                          karena pengguna mobile lebih banyak dari pada pengguna desktop
+    * 'content First' / hierarki informasi
