@@ -1,7 +1,7 @@
-1. grid container
-2. grid item
-3. grid line
-4. grid cell
-5. grid area
-6. grid track
-7. grid gap
+1. grid container :   element pembungkus grid dengan menuliskan dispaly :grid;.
+2. grid item :  isi/ element2 yang berada (1level) di dalam grid container.
+3. grid line :  Garis horizontal (kolom) atau vertikal (baris/raw) yang memisahkan grid menjadi beberapa bagian dan ditandai dengan angka, jumlah line pasti lebih dari 1 dari                   kolom
+4. grid cell :  perpotongan / pertemuan antara baris dan kolom grid, 
+5. grid area : kumpulan lebih dari satu cell yang berbentuk kotak, tidak boleh acak
+6. grid track : ukuran / jarak antara 2 grid line, bisa horizontal (kolom) / vertikal (baris). 
+7. grid gap : spaci / jarak antar grid track / cell
